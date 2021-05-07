@@ -1,4 +1,10 @@
 fish_variables
-functions/
+functions/*
+!dracula_prompt.fish
+!:q.fish
+!fish_user_key_bindings.fish
+!gruvbox-material-prompt.fish
+!paclean.fish
+!matlab-cli.fish
 conf.d/
 completions/
