@@ -16,3 +16,7 @@ end
 # Alias
 # thefuck
 thefuck --alias | source
+
+# FZF
+# Keybindings
+fzf_configure_bindings --directory=\cf
