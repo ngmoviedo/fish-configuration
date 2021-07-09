@@ -7,10 +7,10 @@ if test (uname -s) = "Linux"
     end
 end
 
-# Mac support
+# Mac support (homebrew)
 if test (uname -s) = "Darwin"
-  set -gx PATH /usr/local/opt/coreutils/libexec/gnubin $PATH
-  set -gx PATH /usr/local/opt/gnu-sed/libexec/gnubin $PATH
+    set -gx PATH /usr/local/opt/coreutils/libexec/gnubin $PATH
+    set -gx PATH /usr/local/opt/gnu-sed/libexec/gnubin $PATH
 end
 
 # Alias
@@ -19,4 +19,4 @@ thefuck --alias | source
 
 # FZF
 # Keybindings
-fzf_configure_bindings --directory=\cf
+fzf_configure_bindings --directory=\cf --history=\ch --variables
